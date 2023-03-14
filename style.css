@@ -1,9 +1,28 @@
-body {
+html, body {
     height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-image: url('assets/cave_background.jpg');
+    background-size: 100% 100%;
+    /* background-position: center center; */
+}
+
+.card {
+    position: absolute;
+    z-index: 10;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 14rem;
+    padding: 1rem;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
 }
 
 #animation-canvas {
-    border: 0.5rem solid black;
+    /* border: 0.5rem solid black; */
     position: absolute;
     top: 50%;
     left: 50%;
